@@ -1,7 +1,7 @@
 package com.cabolabs.entities
 
-class Person {
+class Person extends Actor {
 
-    static constraints = {
-    }
+   static constraints = {
+   }
 }

@@ -1,7 +1,9 @@
 package com.cabolabs.entities.structure
 
-class Cluster {
+class Cluster extends Item {
 
-    static constraints = {
-    }
+   static hasMany = [items: Item]
+
+   static constraints = {
+   }
 }

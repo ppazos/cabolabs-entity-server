@@ -1,7 +1,7 @@
 package com.cabolabs.entities.structure.datatypes
 
-class DvIdentifier {
+class DvIdentifier extends DataValue {
 
-    static constraints = {
-    }
+   static constraints = {
+   }
 }

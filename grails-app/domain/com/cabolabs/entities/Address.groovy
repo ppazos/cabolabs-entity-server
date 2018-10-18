@@ -1,7 +1,11 @@
 package com.cabolabs.entities
 
+import com.cabolabs.entities.structure.ItemTree
+
 class Address {
 
-    static constraints = {
-    }
+   ItemTree details
+
+   static constraints = {
+   }
 }

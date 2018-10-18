@@ -1,7 +1,7 @@
 package com.cabolabs.entities.structure.datatypes
 
-class DvBoolean {
+class DvBoolean extends DataValue {
 
-    static constraints = {
-    }
+   static constraints = {
+   }
 }

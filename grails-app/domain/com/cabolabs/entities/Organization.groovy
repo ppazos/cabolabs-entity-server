@@ -1,7 +1,7 @@
 package com.cabolabs.entities
 
-class Organization {
+class Organization extends Actor {
 
-    static constraints = {
-    }
+   static constraints = {
+   }
 }

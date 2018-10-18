@@ -1,7 +1,9 @@
 package com.cabolabs.entities
 
-class Role {
+class Role extends Party {
 
-    static constraints = {
-    }
+   // Inherits DvText name from Party that can be DvCodedText!
+
+   static constraints = {
+   }
 }

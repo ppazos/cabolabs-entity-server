@@ -1,7 +1,9 @@
 package com.cabolabs.entities.structure.datatypes
 
-class DvText {
+class DvText extends DataValue {
 
-    static constraints = {
-    }
+   String value
+
+   static constraints = {
+   }
 }

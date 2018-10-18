@@ -1,0 +1,6 @@
+#Thu, 18 Oct 2018 04:42:28 -0300
+
+info.app.version=0.1
+info.app.name=cabolabs-entity-server
+grails.env=development
+info.app.grailsVersion=3.3.8

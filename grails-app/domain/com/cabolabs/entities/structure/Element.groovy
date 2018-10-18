@@ -1,7 +1,11 @@
 package com.cabolabs.entities.structure
 
-class Element {
+import com.cabolabs.entities.structure.datatypes.DataValue
 
-    static constraints = {
-    }
+class Element extends Item {
+
+   DataValue value
+
+   static constraints = {
+   }
 }
